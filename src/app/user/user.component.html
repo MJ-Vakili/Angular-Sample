@@ -1,0 +1,20 @@
+<p>user works!</p>
+<label class="search-label" for="search">Search:</label>
+
+<table mat-table [dataSource]="dataSource " class="">
+
+
+    <ng-container *ngFor="let column1 of displayedColumns; let index = index" [matColumnDef]="column1">
+        <th mat-header-cell *matHeaderCellDef> {{column1}} </th>
+        <td mat-cell *matCellDef="let element"> {{element[column1] || '-'}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="isActive">
+        <th mat-header-cell *matHeaderCellDef> Active </th>
+        <td mat-cell *matCellDef="let element"> {{element.isActive ? '&#10003;' : '&#10005;'}} </td>
+    </ng-container>
+  
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

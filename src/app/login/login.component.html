@@ -1,0 +1,26 @@
+<nb-card>
+    <nb-card-header>
+        ورود به سیستم
+    </nb-card-header>
+
+    <nb-card-body>
+        <form [formGroup]="loginFrom">
+            <p>login works!</p>
+            <nb-form-field>
+                <nb-icon nbPrefix icon="person" pack="eva"></nb-icon>
+                <input nbInput type="text" required [formControl]="userName">
+            </nb-form-field>
+            <nb-form-field>
+                <nb-icon nbPrefix icon="lock" pack="eva"></nb-icon>
+                <input nbInput type="text" required [formControl]="password">
+            </nb-form-field>
+            <nb-form-field>
+                <nb-icon nbPrefix icon="star" pack="eva"></nb-icon>
+                <nb-select>
+                    <nb-option>1</nb-option>
+                </nb-select>
+            </nb-form-field>
+            <button type="submit" (click)="loginBtn()" nbButton status="success">Login</button>
+        </form>
+    </nb-card-body>
+</nb-card>

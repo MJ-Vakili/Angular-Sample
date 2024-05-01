@@ -1,0 +1,30 @@
+<nb-layout>
+  <nb-layout-header fixed>
+    <nb-actions class="left">
+      <nb-action icon="person-outline" class="profile" [nbContextMenu]="items"
+        [nbContextMenuPlacement]="contextMenuPlacement">
+        Profile
+      </nb-action>
+      <nb-action (click)="setting()">Settings</nb-action>
+    </nb-actions>
+  </nb-layout-header>
+
+  <nb-layout-column>
+
+    <router-outlet></router-outlet>
+
+  </nb-layout-column>
+
+
+  <nb-icon icon="star" status="warning"></nb-icon>
+
+  <nb-layout-footer fixed>
+    <nb-actions size="small">
+      <nb-action routerLink="/test" icon="search"></nb-action>
+      <nb-action icon="lock-outline" routerLink="/login"></nb-action>
+      <nb-action icon="person" routerLink="/profile"></nb-action>
+      <nb-action icon="home" routerLink="/home"></nb-action>
+    </nb-actions>
+  </nb-layout-footer>
+
+</nb-layout>

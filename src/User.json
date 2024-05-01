@@ -1,0 +1,80 @@
+[
+    {
+      "_id": "65d2f21ef3c6a65a8df93555",
+      "isActive": false,
+      "balance": "$1,417.92",
+      "age": 27,
+      "name": "Goldie Shaw",
+      "gender": "female",
+      "company": "FRANSCENE",
+      "email": "goldieshaw@franscene.com",
+      "phone": "+1 (977) 582-3998",
+      "address": "322 Lake Place, Hoagland, Kansas, 7932",
+      "registered": "2020-06-19T04:04:02 -05:-30"
+    },
+    {
+      "_id": "65d2f21efab872fb730bed41",
+      "isActive": false,
+      "balance": "$1,001.04",
+      "age": 20,
+      "name": "Lula Thomas",
+      "gender": "female",
+      "company": "ICOLOGY",
+      "email": "lulathomas@icology.com",
+      "phone": "+1 (881) 490-3688",
+      "address": "932 Hanson Place, Smock, Arizona, 4759",
+      "registered": "2018-03-15T09:35:42 -04:-30"
+    },
+    {
+      "_id": "65d2f21ebeae7dec855b5379",
+      "isActive": true,
+      "balance": "$3,692.38",
+      "age": 28,
+      "name": "Colon Nolan",
+      "gender": "male",
+      "company": "MENBRAIN",
+      "email": "colonnolan@menbrain.com",
+      "phone": "+1 (986) 419-2157",
+      "address": "961 Brigham Street, Hall, Ohio, 2921",
+      "registered": "2019-06-04T06:59:11 -05:-30"
+    },
+    {
+      "_id": "65d2f21e5e402f69b591e1c0",
+      "isActive": false,
+      "balance": "$3,081.19",
+      "age": 25,
+      "name": "Lee Stout",
+      "gender": "female",
+      "company": "HYPLEX",
+      "email": "leestout@hyplex.com",
+      "phone": "+1 (890) 529-3606",
+      "address": "416 Ridge Court, Hilltop, Louisiana, 2400",
+      "registered": "2018-05-20T10:55:23 -05:-30"
+    },
+    {
+      "_id": "65d2f21e6609c4d5824e3c9b",
+      "isActive": true,
+      "balance": "$1,181.72",
+      "age": 20,
+      "name": "Stone Cantu",
+      "gender": "male",
+      "company": "QUOTEZART",
+      "email": "stonecantu@quotezart.com",
+      "phone": "+1 (905) 528-2849",
+      "address": "828 Ridgewood Avenue, Wawona, Texas, 7526",
+      "registered": "2022-10-03T04:38:33 -04:-30"
+    },
+    {
+      "_id": "65d2f21e8c9093fdcc9ed6a3",
+      "isActive": false,
+      "balance": "$2,217.16",
+      "age": 30,
+      "name": "Madelyn Fitzpatrick",
+      "gender": "female",
+      "company": "IZZBY",
+      "email": "madelynfitzpatrick@izzby.com",
+      "phone": "+1 (853) 597-3229",
+      "address": "211 Story Street, Esmont, Georgia, 5297",
+      "registered": "2018-08-20T06:53:08 -05:-30"
+    }
+  ]
